@@ -1,0 +1,97 @@
+
+
+Code
+Questions
+Demandes d'extraction
+Actions
+Projets
+wiki
+Sécurité
+Connaissances
+Paramètres
+Commettre
+Validation initiale
+ principal
+@Almou2002
+Almou2002 engagé il y a 26 minutes
+0 parents
+commettre 2655391
+Affichage de 3 fichiers modifiés avec 696 ajouts et 0 suppressions .
+ 33 changements : 33 ajouts & 0 suppressions33 
+.gitignore
+@@ -0,0 +1,33 @@
+# fichiers Gradle
+.gradle /
+construire /
+
+# Fichier de configuration local (chemin du SDK, etc.)
+propriétés.locales
+
+# Fichiers journaux/OS
+* .log
+
+# Fichiers et dossiers générés par Android Studio
+capture /
+.externalNativeBuild /
+.cxx /
+* .apk
+sortie.json
+
+#IntelliJ _
+* .iml
+.idée /
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# fichiers de magasin de clés
+* .jks
+* .keystore
+
+# Services Google (par exemple API ou Firebase)
+google-services.json
+
+# Profilage Android
+* .hprof
+ 661 changements : 661 ajouts & 0 suppressions661 
+LICENCE
+@@ -0,0 +1,661 @@
+                    LICENCE PUBLIQUE GÉNÉRALE GNU AFFERO
+                       Version 3, 19 novembre 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Tout le monde est autorisé à copier et distribuer des copies textuelles
+de ce document de licence, mais sa modification n'est pas autorisée.
+
+                            Préambule
+
+  La Licence Publique Générale GNU Affero est une licence libre avec copyleft pour
+logiciels et autres types d'œuvres, spécialement conçus pour assurer
+coopération avec la communauté dans le cas des logiciels de serveur de réseau.
+
+  Les licences de la plupart des logiciels et autres travaux pratiques sont conçues
+pour vous priver de votre liberté de partager et de modifier les œuvres. Par contre,
+nos Licences Publiques Générales sont destinées à garantir votre liberté de
+partager et modifier toutes les versions d'un programme - pour s'assurer qu'il reste gratuit
+logiciel pour tous ses utilisateurs.
+
+  Lorsque nous parlons de logiciel libre, nous faisons référence à la liberté, pas
+prix. Nos licences publiques générales sont conçues pour s'assurer que vous
+ont la liberté de distribuer des copies de logiciels libres (et de facturer
+si vous le souhaitez), que vous recevez le code source ou pouvez l'obtenir si vous
+le souhaitez, que vous pouvez modifier le logiciel ou en utiliser des parties dans de nouveaux
+programmes gratuits, et que vous savez que vous pouvez faire ces choses.
+
+  Les développeurs qui utilisent nos licences publiques générales protègent vos droits
+en deux étapes : (1) revendiquer le droit d'auteur sur le logiciel et (2) proposer
+vous cette licence qui vous donne l'autorisation légale de copier, distribuer
+et/ou modifier le logiciel.
+
+  Un avantage secondaire de la défense de la liberté de tous les utilisateurs est que
+améliorations apportées aux versions alternatives du programme, si elles
+recevoir une utilisation généralisée, devenir disponible pour d'autres développeurs
+intégrer. De nombreux développeurs de logiciels libres sont encouragés et
+encouragés par la coopération qui en résulte. Cependant, dans le cas de
+logiciel utilisé sur les serveurs de réseau, ce résultat peut ne pas se produire.
+La licence publique générale GNU permet de créer une version modifiée et
+laisser le public y accéder sur un serveur sans jamais libérer son
